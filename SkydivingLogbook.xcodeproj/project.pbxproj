@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C131EDB12C349B4500D52B6B /* SkydivingLogbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C131EDB02C349B4500D52B6B /* SkydivingLogbookApp.swift */; };
+		C131EDB32C349B4500D52B6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C131EDB22C349B4500D52B6B /* ContentView.swift */; };
+		C131EDB52C349B4600D52B6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C131EDB42C349B4600D52B6B /* Assets.xcassets */; };
+		C131EDB82C349B4600D52B6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C131EDB72C349B4600D52B6B /* Preview Assets.xcassets */; };
+		C131EDC22C349B4600D52B6B /* SkydivingLogbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C131EDC12C349B4600D52B6B /* SkydivingLogbookTests.swift */; };
+		C131EDCC2C349B4600D52B6B /* SkydivingLogbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C131EDCB2C349B4600D52B6B /* SkydivingLogbookUITests.swift */; };
+		C131EDCE2C349B4600D52B6B /* SkydivingLogbookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C131EDCD2C349B4600D52B6B /* SkydivingLogbookUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C131EDBE2C349B4600D52B6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C131EDA52C349B4500D52B6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C131EDAC2C349B4500D52B6B;
+			remoteInfo = SkydivingLogbook;
+		};
+		C131EDC82C349B4600D52B6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C131EDA52C349B4500D52B6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C131EDAC2C349B4500D52B6B;
+			remoteInfo = SkydivingLogbook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C131EDAD2C349B4500D52B6B /* SkydivingLogbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkydivingLogbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C131EDB02C349B4500D52B6B /* SkydivingLogbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkydivingLogbookApp.swift; sourceTree = "<group>"; };
+		C131EDB22C349B4500D52B6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C131EDB42C349B4600D52B6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C131EDB72C349B4600D52B6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C131EDBD2C349B4600D52B6B /* SkydivingLogbookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkydivingLogbookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C131EDC12C349B4600D52B6B /* SkydivingLogbookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkydivingLogbookTests.swift; sourceTree = "<group>"; };
+		C131EDC72C349B4600D52B6B /* SkydivingLogbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkydivingLogbookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C131EDCB2C349B4600D52B6B /* SkydivingLogbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkydivingLogbookUITests.swift; sourceTree = "<group>"; };
+		C131EDCD2C349B4600D52B6B /* SkydivingLogbookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkydivingLogbookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C131EDAA2C349B4500D52B6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C131EDBA2C349B4600D52B6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C131EDC42C349B4600D52B6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C131EDA42C349B4500D52B6B = {
+			isa = PBXGroup;
+			children = (
+				C131EDAF2C349B4500D52B6B /* SkydivingLogbook */,
+				C131EDC02C349B4600D52B6B /* SkydivingLogbookTests */,
+				C131EDCA2C349B4600D52B6B /* SkydivingLogbookUITests */,
+				C131EDAE2C349B4500D52B6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C131EDAE2C349B4500D52B6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C131EDAD2C349B4500D52B6B /* SkydivingLogbook.app */,
+				C131EDBD2C349B4600D52B6B /* SkydivingLogbookTests.xctest */,
+				C131EDC72C349B4600D52B6B /* SkydivingLogbookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C131EDAF2C349B4500D52B6B /* SkydivingLogbook */ = {
+			isa = PBXGroup;
+			children = (
+				C131EDB02C349B4500D52B6B /* SkydivingLogbookApp.swift */,
+				C131EDB22C349B4500D52B6B /* ContentView.swift */,
+				C131EDB42C349B4600D52B6B /* Assets.xcassets */,
+				C131EDB62C349B4600D52B6B /* Preview Content */,
+			);
+			path = SkydivingLogbook;
+			sourceTree = "<group>";
+		};
+		C131EDB62C349B4600D52B6B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C131EDB72C349B4600D52B6B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C131EDC02C349B4600D52B6B /* SkydivingLogbookTests */ = {
+			isa = PBXGroup;
+			children = (
+				C131EDC12C349B4600D52B6B /* SkydivingLogbookTests.swift */,
+			);
+			path = SkydivingLogbookTests;
+			sourceTree = "<group>";
+		};
+		C131EDCA2C349B4600D52B6B /* SkydivingLogbookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C131EDCB2C349B4600D52B6B /* SkydivingLogbookUITests.swift */,
+				C131EDCD2C349B4600D52B6B /* SkydivingLogbookUITestsLaunchTests.swift */,
+			);
+			path = SkydivingLogbookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C131EDAC2C349B4500D52B6B /* SkydivingLogbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C131EDD12C349B4600D52B6B /* Build configuration list for PBXNativeTarget "SkydivingLogbook" */;
+			buildPhases = (
+				C131EDA92C349B4500D52B6B /* Sources */,
+				C131EDAA2C349B4500D52B6B /* Frameworks */,
+				C131EDAB2C349B4500D52B6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkydivingLogbook;
+			productName = SkydivingLogbook;
+			productReference = C131EDAD2C349B4500D52B6B /* SkydivingLogbook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C131EDBC2C349B4600D52B6B /* SkydivingLogbookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C131EDD42C349B4600D52B6B /* Build configuration list for PBXNativeTarget "SkydivingLogbookTests" */;
+			buildPhases = (
+				C131EDB92C349B4600D52B6B /* Sources */,
+				C131EDBA2C349B4600D52B6B /* Frameworks */,
+				C131EDBB2C349B4600D52B6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C131EDBF2C349B4600D52B6B /* PBXTargetDependency */,
+			);
+			name = SkydivingLogbookTests;
+			productName = SkydivingLogbookTests;
+			productReference = C131EDBD2C349B4600D52B6B /* SkydivingLogbookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C131EDC62C349B4600D52B6B /* SkydivingLogbookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C131EDD72C349B4600D52B6B /* Build configuration list for PBXNativeTarget "SkydivingLogbookUITests" */;
+			buildPhases = (
+				C131EDC32C349B4600D52B6B /* Sources */,
+				C131EDC42C349B4600D52B6B /* Frameworks */,
+				C131EDC52C349B4600D52B6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C131EDC92C349B4600D52B6B /* PBXTargetDependency */,
+			);
+			name = SkydivingLogbookUITests;
+			productName = SkydivingLogbookUITests;
+			productReference = C131EDC72C349B4600D52B6B /* SkydivingLogbookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C131EDA52C349B4500D52B6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C131EDAC2C349B4500D52B6B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					C131EDBC2C349B4600D52B6B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C131EDAC2C349B4500D52B6B;
+					};
+					C131EDC62C349B4600D52B6B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C131EDAC2C349B4500D52B6B;
+					};
+				};
+			};
+			buildConfigurationList = C131EDA82C349B4500D52B6B /* Build configuration list for PBXProject "SkydivingLogbook" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C131EDA42C349B4500D52B6B;
+			productRefGroup = C131EDAE2C349B4500D52B6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C131EDAC2C349B4500D52B6B /* SkydivingLogbook */,
+				C131EDBC2C349B4600D52B6B /* SkydivingLogbookTests */,
+				C131EDC62C349B4600D52B6B /* SkydivingLogbookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C131EDAB2C349B4500D52B6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C131EDB82C349B4600D52B6B /* Preview Assets.xcassets in Resources */,
+				C131EDB52C349B4600D52B6B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C131EDBB2C349B4600D52B6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C131EDC52C349B4600D52B6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C131EDA92C349B4500D52B6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C131EDB32C349B4500D52B6B /* ContentView.swift in Sources */,
+				C131EDB12C349B4500D52B6B /* SkydivingLogbookApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C131EDB92C349B4600D52B6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C131EDC22C349B4600D52B6B /* SkydivingLogbookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C131EDC32C349B4600D52B6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C131EDCC2C349B4600D52B6B /* SkydivingLogbookUITests.swift in Sources */,
+				C131EDCE2C349B4600D52B6B /* SkydivingLogbookUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C131EDBF2C349B4600D52B6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C131EDAC2C349B4500D52B6B /* SkydivingLogbook */;
+			targetProxy = C131EDBE2C349B4600D52B6B /* PBXContainerItemProxy */;
+		};
+		C131EDC92C349B4600D52B6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C131EDAC2C349B4500D52B6B /* SkydivingLogbook */;
+			targetProxy = C131EDC82C349B4600D52B6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C131EDCF2C349B4600D52B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C131EDD02C349B4600D52B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C131EDD22C349B4600D52B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkydivingLogbook/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZackWalker.SkydivingLogbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C131EDD32C349B4600D52B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkydivingLogbook/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZackWalker.SkydivingLogbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C131EDD52C349B4600D52B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZackWalker.SkydivingLogbookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkydivingLogbook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SkydivingLogbook";
+			};
+			name = Debug;
+		};
+		C131EDD62C349B4600D52B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZackWalker.SkydivingLogbookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkydivingLogbook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SkydivingLogbook";
+			};
+			name = Release;
+		};
+		C131EDD82C349B4600D52B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZackWalker.SkydivingLogbookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkydivingLogbook;
+			};
+			name = Debug;
+		};
+		C131EDD92C349B4600D52B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZackWalker.SkydivingLogbookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkydivingLogbook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C131EDA82C349B4500D52B6B /* Build configuration list for PBXProject "SkydivingLogbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C131EDCF2C349B4600D52B6B /* Debug */,
+				C131EDD02C349B4600D52B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C131EDD12C349B4600D52B6B /* Build configuration list for PBXNativeTarget "SkydivingLogbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C131EDD22C349B4600D52B6B /* Debug */,
+				C131EDD32C349B4600D52B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C131EDD42C349B4600D52B6B /* Build configuration list for PBXNativeTarget "SkydivingLogbookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C131EDD52C349B4600D52B6B /* Debug */,
+				C131EDD62C349B4600D52B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C131EDD72C349B4600D52B6B /* Build configuration list for PBXNativeTarget "SkydivingLogbookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C131EDD82C349B4600D52B6B /* Debug */,
+				C131EDD92C349B4600D52B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C131EDA52C349B4500D52B6B /* Project object */;
+}
