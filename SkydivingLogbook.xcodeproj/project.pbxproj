@@ -14,6 +14,13 @@
 		C131EDC22C349B4600D52B6B /* SkydivingLogbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C131EDC12C349B4600D52B6B /* SkydivingLogbookTests.swift */; };
 		C131EDCC2C349B4600D52B6B /* SkydivingLogbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C131EDCB2C349B4600D52B6B /* SkydivingLogbookUITests.swift */; };
 		C131EDCE2C349B4600D52B6B /* SkydivingLogbookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C131EDCD2C349B4600D52B6B /* SkydivingLogbookUITestsLaunchTests.swift */; };
+		C1BF2E5C2C35B467008BEF61 /* SkydiveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF2E5B2C35B467008BEF61 /* SkydiveViewModel.swift */; };
+		C1BF2E5E2C35B481008BEF61 /* Skydive.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF2E5D2C35B481008BEF61 /* Skydive.swift */; };
+		C1BF2E602C35B497008BEF61 /* CreateSkydiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF2E5F2C35B497008BEF61 /* CreateSkydiveView.swift */; };
+		C1BF2E622C35B4BD008BEF61 /* SkydiveListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF2E612C35B4BD008BEF61 /* SkydiveListView.swift */; };
+		C1BF2E642C35B4DC008BEF61 /* Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF2E632C35B4DC008BEF61 /* Transitions.swift */; };
+		C1BF2E662C35C037008BEF61 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF2E652C35C037008BEF61 /* SoundManager.swift */; };
+		C1BF2E692C35C2DF008BEF61 /* save_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C1BF2E682C35C2DF008BEF61 /* save_sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		C131EDC72C349B4600D52B6B /* SkydivingLogbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkydivingLogbookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C131EDCB2C349B4600D52B6B /* SkydivingLogbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkydivingLogbookUITests.swift; sourceTree = "<group>"; };
 		C131EDCD2C349B4600D52B6B /* SkydivingLogbookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkydivingLogbookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C1BF2E5B2C35B467008BEF61 /* SkydiveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkydiveViewModel.swift; sourceTree = "<group>"; };
+		C1BF2E5D2C35B481008BEF61 /* Skydive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skydive.swift; sourceTree = "<group>"; };
+		C1BF2E5F2C35B497008BEF61 /* CreateSkydiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSkydiveView.swift; sourceTree = "<group>"; };
+		C1BF2E612C35B4BD008BEF61 /* SkydiveListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkydiveListView.swift; sourceTree = "<group>"; };
+		C1BF2E632C35B4DC008BEF61 /* Transitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transitions.swift; sourceTree = "<group>"; };
+		C1BF2E652C35C037008BEF61 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		C1BF2E682C35C2DF008BEF61 /* save_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = save_sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +108,15 @@
 		C131EDAF2C349B4500D52B6B /* SkydivingLogbook */ = {
 			isa = PBXGroup;
 			children = (
+				C1BF2E672C35C2C0008BEF61 /* Sounds */,
 				C131EDB02C349B4500D52B6B /* SkydivingLogbookApp.swift */,
 				C131EDB22C349B4500D52B6B /* ContentView.swift */,
+				C1BF2E612C35B4BD008BEF61 /* SkydiveListView.swift */,
+				C1BF2E5F2C35B497008BEF61 /* CreateSkydiveView.swift */,
+				C1BF2E5B2C35B467008BEF61 /* SkydiveViewModel.swift */,
+				C1BF2E5D2C35B481008BEF61 /* Skydive.swift */,
+				C1BF2E632C35B4DC008BEF61 /* Transitions.swift */,
+				C1BF2E652C35C037008BEF61 /* SoundManager.swift */,
 				C131EDB42C349B4600D52B6B /* Assets.xcassets */,
 				C131EDB62C349B4600D52B6B /* Preview Content */,
 			);
@@ -125,6 +146,14 @@
 				C131EDCD2C349B4600D52B6B /* SkydivingLogbookUITestsLaunchTests.swift */,
 			);
 			path = SkydivingLogbookUITests;
+			sourceTree = "<group>";
+		};
+		C1BF2E672C35C2C0008BEF61 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				C1BF2E682C35C2DF008BEF61 /* save_sound.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +262,7 @@
 			files = (
 				C131EDB82C349B4600D52B6B /* Preview Assets.xcassets in Resources */,
 				C131EDB52C349B4600D52B6B /* Assets.xcassets in Resources */,
+				C1BF2E692C35C2DF008BEF61 /* save_sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +287,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1BF2E622C35B4BD008BEF61 /* SkydiveListView.swift in Sources */,
+				C1BF2E662C35C037008BEF61 /* SoundManager.swift in Sources */,
 				C131EDB32C349B4500D52B6B /* ContentView.swift in Sources */,
+				C1BF2E5C2C35B467008BEF61 /* SkydiveViewModel.swift in Sources */,
+				C1BF2E602C35B497008BEF61 /* CreateSkydiveView.swift in Sources */,
+				C1BF2E642C35B4DC008BEF61 /* Transitions.swift in Sources */,
 				C131EDB12C349B4500D52B6B /* SkydivingLogbookApp.swift in Sources */,
+				C1BF2E5E2C35B481008BEF61 /* Skydive.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
